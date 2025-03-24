@@ -1,9 +1,9 @@
 # Jovian-Database
 
 ## Team Members
-Avin Mendiratta
-Kunal Kulkarni
-Moinak Mondal
+Avin Mendiratta\n
+Kunal Kulkarni\n
+Moinak Mondal\n
 
 ## Project Description
 The project shows how a database can be leveraged in Java Application to handle magnitude and variety of information pertaining to the qualitative and quantitative  aspects of a real or fictional objects.
