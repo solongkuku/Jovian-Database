@@ -1,11 +1,11 @@
 # Jovian-Database
 
-##Team Members
+## Team Members
 Avin Mendiratta
 Kunal Kulkarni
 Moinak Mondal
 
-##Project Description
+## Project Description
 The project shows how a database can be leveraged in Java Application to handle magnitude and variety of information pertaining to the qualitative and quantitative  aspects of a real or fictional objects.
 
 In our case we have taken the example of tabulating the characteristics of a species in a database containing metrics describing multiple alien species.
