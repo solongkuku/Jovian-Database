@@ -16,7 +16,7 @@ Then aesthetic styling was applied on the classes and/or particular objects usin
 
 **Database Implementation**
 
-UI logic
+**UI logic**
 The main class was implemented using various JavaFX libraries' classes such as Application, FXMLloader, Scene and Stage.
 
 The user interaction was implemented using various JavaFX libraries' classes such as those described above and including Event class and Control class objects like buttons, labels and Menu items
