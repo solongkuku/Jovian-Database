@@ -14,6 +14,7 @@ JavaFX tools were implemented in a Maven project. The scenes were built using xm
 Then aesthetic styling was applied on the classes and/or particular objects using CSS.
 
 **Database Implementation**  
+The persistent database was primarily implimented using MySQL Workbench. Tables were created with various extractable fields so as to display relevant information about each of the species on the page. Several datatypes like variable characters, text, integers and blobs (images) were used to make the data more interesting. Graphs were created using the population data of each species stored in a seperate table which was grouped by alien id. The data was added to the database by the use of SQL command prompts and images were loaded into the database by the load from file functionality.
 
 **UI logic**  
 The main class was implemented using various JavaFX libraries' classes such as Application, FXMLloader, Scene and Stage.  
