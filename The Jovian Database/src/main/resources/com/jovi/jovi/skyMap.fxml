@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Ellipse?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" stylesheets="@skyMap.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jovi.jovi.Controller">
+    <Pane fx:id="pane1" layoutX="-1287.0" layoutY="-823.0" prefHeight="1646.0" prefWidth="2593.0" stylesheets="@skyMap.css" />
+
+    <!-- Planets layer -->
+    <Pane fx:id="pane" layoutX="-110.0" layoutY="-104.0" prefHeight="923.0" prefWidth="1401.0" style="-fx-background-image: stars1.jpg;" stylesheets="@skyMap.css">
+
+        <!-- Pyraxis - Fiery volcanic planet -->
+        <Circle centerX="246" centerY="340" radius="44" styleClass="pyraxis, planet, rotate" />
+        <Text styleClass="planet-label" text="Pyraxis" x="214" y="410" />
+
+        <!-- Azurath - Ocean planet -->
+        <Circle centerX="820" centerY="250" radius="50" styleClass="azurath, planet, rotate-slow" />
+        <Text styleClass="planet-label" text="Azurath" x="784" y="330" />
+
+        <!-- Crystalon - Crystalline planet -->
+        <Circle centerX="640" centerY="580" radius="36" styleClass="crystalon, planet, pulsing" />
+        <Text styleClass="planet-label" text="Crystalon" x="590" y="650" />
+
+        <!-- Emeraldia - Jungle world -->
+        <Circle centerX="1080" centerY="640" radius="40" styleClass="emeraldia, planet, rotate" />
+        <Text styleClass="planet-label" text="Emeraldia" x="1030" y="710" />
+
+        <!-- Aureus - Golden gas giant -->
+        <Circle centerX="460" centerY="180" radius="60" styleClass="aureus, planet, rotate-slow" />
+        <Text styleClass="planet-label" text="Aureus" x="430" y="265" />
+
+        <!-- Umbrios - Dark matter planet -->
+        <Circle centerX="320" centerY="740" radius="30" styleClass="umbrios, planet, pulsing" />
+        <Text styleClass="planet-label" text="Umbrios" x="280" y="800" />
+
+        <!-- Nimbora - Cloud planet with rings -->
+        <Circle centerX="1300" centerY="480" radius="48" styleClass="nimbora, planet, rotate-slow" />
+        <Ellipse centerX="1300" centerY="480" radiusX="76" radiusY="16" rotate="15" styleClass="nimbora-rings" />
+        <Text styleClass="planet-label" text="Nimbora" x="1260" y="560" />
+
+        <!-- Rubicon - Red desert planet -->
+        <Circle centerX="580" centerY="320" radius="32" styleClass="rubicon, planet, rotate" />
+        <Text styleClass="planet-label" text="Rubicon" x="540" y="380" />
+
+        <!-- Ceruleon - Ice world -->
+        <Circle centerX="190" centerY="580" radius="40" styleClass="ceruleon, planet, rotate-slow" />
+        <Text styleClass="planet-label" text="Ceruleon" x="150" y="650" />
+
+        <!-- Phosphoros - Bioluminescent planet -->
+        <Circle centerX="880" centerY="820" radius="34" styleClass="phosphoros, planet, pulsing" />
+        <Text styleClass="planet-label" text="Phosphoros" x="820" y="890" />
+
+        <!-- Moons -->
+        <Circle centerX="290" centerY="325" radius="10" styleClass="moon-general, rotate-fast" />
+        <Circle centerX="790" centerY="260" radius="12" styleClass="moon-general, rotate-fast" />
+        <Circle centerX="1120" centerY="660" radius="8" styleClass="moon-general, rotate-fast" />
+        <Circle centerX="520" centerY="190" radius="14" styleClass="moon-general, rotate-fast" />
+        <Circle centerX="160" centerY="596" radius="8" styleClass="moon-general, rotate-fast" />
+    </Pane>
+
+</AnchorPane>

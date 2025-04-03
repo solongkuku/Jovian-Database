@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1470.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jovi.jovi.Controller">
+   <children>
+      <ScrollPane prefHeight="1080.0" prefWidth="1470.0">
+         <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="7503.0" prefWidth="1453.0">
+               <children>
+                  <ImageView fitHeight="359.0" fitWidth="1857.0" layoutX="23.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="579.0" layoutY="41.0" prefHeight="43.0" prefWidth="164.0" text="Species :">
+                     <font>
+                        <Font size="35.0" />
+                     </font>
+                  </Label>
+                  <MenuButton layoutX="751.0" layoutY="43.0" mnemonicParsing="false" text="Select Species">
+                    <items>
+                      <MenuItem fx:id="Zortians" mnemonicParsing="false" text="Zortians" />
+                      <MenuItem fx:id="Aqarians" mnemonicParsing="false" text="Aqarians" />
+                        <MenuItem fx:id="Volarians" mnemonicParsing="false" text="Volarians" />
+                        <MenuItem fx:id="Terraformis" mnemonicParsing="false" text="Terraformis" />
+                        <MenuItem fx:id="Mechanoforms" mnemonicParsing="false" text="Mechanoforms" />
+                        <MenuItem fx:id="Luminari" mnemonicParsing="false" text="Luminari" />
+                        <MenuItem fx:id="Gravitites" mnemonicParsing="false" text="Gravitites" />
+                        <MenuItem fx:id="Nebulites" mnemonicParsing="false" text="Nebulites" />
+                        <MenuItem fx:id="Chronos" mnemonicParsing="false" text="Chronos" />
+                        <MenuItem fx:id="Symbionts" mnemonicParsing="false" text="Symbionts" />
+                    </items>
+                     <font>
+                        <Font size="23.0" />
+                     </font>
+                  </MenuButton>
+                  <Separator layoutX="-18.0" layoutY="508.0" prefHeight="8.0" prefWidth="1976.0" />
+                  <Label layoutX="54.0" layoutY="525.0" text="Body Structure">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="bodyStructure" layoutX="54.0" layoutY="578.0" prefHeight="254.0" prefWidth="1798.0" />
+                  <Separator layoutX="-18.0" layoutY="832.0" prefHeight="8.0" prefWidth="1976.0" />
+                  <Label layoutX="54.0" layoutY="849.0" text="Lifespan">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="bodyStructure1" layoutX="54.0" layoutY="902.0" prefHeight="254.0" prefWidth="1798.0" />
+                  <Separator layoutX="-18.0" layoutY="1156.0" prefHeight="8.0" prefWidth="1976.0" />
+                  <Label layoutX="54.0" layoutY="1173.0" text="Planet Geography">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="bodyStructure2" layoutX="54.0" layoutY="1226.0" prefHeight="254.0" prefWidth="1798.0" />
+                  <Separator layoutX="-18.0" layoutY="1480.0" prefHeight="8.0" prefWidth="1976.0" />
+                  <Label layoutX="54.0" layoutY="1497.0" text="Food Sources">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="bodyStructure11" layoutX="54.0" layoutY="1550.0" prefHeight="254.0" prefWidth="1798.0" />
+                  <Separator layoutX="-18.0" layoutY="1804.0" prefHeight="8.0" prefWidth="1976.0" />
+                  <Label layoutX="54.0" layoutY="1821.0" text="Group Organiation">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="bodyStructure12" layoutX="54.0" layoutY="1874.0" prefHeight="254.0" prefWidth="1798.0" />
+                  <Separator layoutX="-18.0" layoutY="2128.0" prefHeight="8.0" prefWidth="1976.0" />
+                  <Label layoutX="54.0" layoutY="2145.0" text="Reproduction">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="bodyStructure21" layoutX="54.0" layoutY="2198.0" prefHeight="254.0" prefWidth="1798.0" />
+                  <Separator layoutX="-18.0" layoutY="2452.0" prefHeight="8.0" prefWidth="1976.0" />
+                  <Label layoutX="54.0" layoutY="2469.0" text="Development of Societies">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="bodyStructure111" layoutX="54.0" layoutY="2522.0" prefHeight="254.0" prefWidth="1798.0" />
+                  <Separator layoutX="-36.0" layoutY="2776.0" prefHeight="8.0" prefWidth="1976.0" />
+                  <LineChart layoutX="32.0" layoutY="2805.0" prefHeight="863.0" prefWidth="1400.0" title="Population Growth">
+                    <xAxis>
+                      <CategoryAxis side="BOTTOM" />
+                        
+                    </xAxis>
+                    <yAxis>
+                      <NumberAxis side="LEFT" />
+                    </yAxis>
+                  </LineChart>
+                  <Separator layoutX="1467.0" layoutY="-2125.0" orientation="VERTICAL" prefHeight="8786.0" prefWidth="0.0" />
+               </children>
+               <cursor>
+                  <Cursor fx:constant="CLOSED_HAND" />
+               </cursor>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
