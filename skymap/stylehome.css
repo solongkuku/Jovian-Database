@@ -1,0 +1,39 @@
+/* Style for the background image */
+.root {
+    -fx-background-image: url("file:/D:/java/resources/skymap/cosmic_background.png");
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+@font-face {
+    font-family: 'Dune Rise';
+    src: url('file:/D:/java/resources/fonts/Dune_Rise.ttf');
+}
+
+/* Styling the title label */
+.title {
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 255, 255, 0.7), 10, 0, 0, 3);
+    -fx-font-size: 96px;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+    -fx-text-origin: center;
+}
+
+/* Styling for the "Engage" button */
+.engage-button {
+    -fx-background-color: rgba(0, 255, 255, 0.5);
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+    -fx-text-fill: white;
+    -fx-font-size: 51px;
+    -fx-font-family: 'Bank Gothic Medium BT';
+    -fx-padding: 20px;
+    -fx-background-radius: 15px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 255, 255, 0.8), 10, 0, 0, 5);
+}
+
+/* Add hover effect to button */
+.engage-button:hover {
+    -fx-background-color: rgba(0, 255, 255, 0.8);
+    -fx-effect: dropshadow(gaussian, rgba(0, 255, 255, 1), 15, 0, 0, 10);
+}
