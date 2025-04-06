@@ -23,6 +23,6 @@ For example a button click by the user prompts a method in the controller class 
 
 **Individual Contribution**  
 
-Avin Mendiratta : Contributed to UI logic and elements, and helped in the integration of database with the application
-Kunal Kulkarni : Contributed to development of DBMS in MySQL and integration of database with the application
+Avin Mendiratta : Contributed to UI logic and elements, and helped in the integration of database with the application  
+Kunal Kulkarni : Contributed to development of DBMS in MySQL and integration of database with the application  
 Moinak Mondal : Contributed to development of UI elements and application of Cascading Style Sheets on fxml files
