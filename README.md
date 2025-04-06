@@ -20,3 +20,9 @@ The persistent database was primarily implimented using MySQL Workbench. Tables 
 The main class was implemented using various JavaFX libraries' classes such as Application, FXMLloader, Scene and Stage.  
 The user interaction was implemented using various JavaFX libraries' classes such as those described above and including Event class and Control class objects like buttons, labels and Menu items.  
 For example a button click by the user prompts a method in the controller class that produces a predefined result such change of scene, displaying the database metrics' values etc.  
+
+**Individual Contribution**  
+
+Avin Mendiratta : Contributed to UI logic and elements, and helped in the integration of database with the application
+Kunal Kulkarni : Contributed to development of DBMS in MySQL and integration of database with the application
+Moinak Mondal : Contributed to development of UI elements and application of Cascading Style Sheets on fxml files
