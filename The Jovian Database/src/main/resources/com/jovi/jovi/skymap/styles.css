@@ -1,0 +1,28 @@
+#back {
+    -fx-background-image: url("image.png");
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+#homeTitle {
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, rgba(237, 219, 166, 0.8), 10, 0, 0, 5);
+    -fx-font-size: 96px;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+    -fx-text-origin: center;
+}
+
+
+.button {
+    -fx-background-color: rgb(49, 49, 104);
+    -fx-text-fill: white;
+    -fx-font-size: 51px;
+    -fx-font-family: 'Bank Gothic Medium BT';
+    -fx-padding: 20px;
+    -fx-background-radius: 15px;
+    /*-fx-effect: dropshadow(gaussian, rgba(237, 219, 166, 0.8), 10, 0, 0, 5);*/
+}
+
+.button:hover {
+    -fx-effect: dropshadow(gaussian, rgb(255, 255, 255), 15, 0, 0, 10);
+}

@@ -1,0 +1,80 @@
+#back {
+    -fx-background-image: url("image.png");
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+
+.label {
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, rgba(237, 219, 166, 0.8), 10, 0, 0, 5);
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+    -fx-text-origin: center;
+}
+
+/*!* General button styling *!*/
+/*.button {*/
+/*    background-color: #ff6b6b; !* Fallback for compatibility *!*/
+/*    -fx-background-color: linear-gradient(to bottom, #ff6b6b, #ffcc5c);*/
+/*    -fx-text-fill: white;*/
+/*    font-size: 18px; !* Standard property for compatibility *!*/
+/*    -fx-font-size: 18px;*/
+/*    font-weight: bold; !* Standard property for compatibility *!*/
+/*    -fx-font-weight: bold;*/
+/*    border-radius: 25px; !* Standard property for compatibility *!*/
+/*    -fx-border-radius: 25px;*/
+/*    -fx-background-radius: 25px;*/
+/*    padding: 10px 20px; !* Standard property for compatibility *!*/
+/*    -fx-padding: 10px 20px;*/
+/*    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 5, 0, 0, 3);*/
+/*}*/
+
+/*!* Hover effect *!*/
+/*.button:hover {*/
+/*    background-color: #ffcc5c; !* Fallback for compatibility *!*/
+/*    -fx-background-color: linear-gradient(to bottom, #ffcc5c, #ff6b6b);*/
+/*    cursor: pointer; !* Standard property for compatibility *!*/
+/*    -fx-cursor: hand;*/
+/*}*/
+
+.button {
+    -fx-background-color: rgb(49, 49, 104);
+    -fx-text-fill: white;
+    /*-fx-font-family: 'Bank Gothic Medium BT';*/
+    -fx-padding: 20px;
+    -fx-background-radius: 15px;
+    /*-fx-effect: dropshadow(gaussian, rgba(237, 219, 166, 0.8), 10, 0, 0, 5);*/
+}
+
+.button:hover {
+    -fx-effect: dropshadow(gaussian, rgb(255, 255, 255), 15, 0, 0, 10);
+}
+
+/*!* Pressed effect *!*/
+/*.button:pressed {*/
+/*    background-color: #d9534f; !* Fallback for compatibility *!*/
+/*    -fx-background-color: linear-gradient(to bottom, #d9534f, #ff6b6b);*/
+/*    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 5, 0, 0, 3);*/
+/*}*/
+
+/*!* HOME button specific styling *!*/
+/*#disengage {*/
+/*    background-color: #5bc0de; !* Fallback for compatibility *!*/
+/*    -fx-background-color: linear-gradient(to bottom, #5bc0de, #0275d8);*/
+/*    -fx-text-fill: white;*/
+/*    font-size: 17px; !* Standard property for compatibility *!*/
+/*    -fx-font-size: 17px;*/
+/*    -fx-font-weight: bold;*/
+/*    -fx-border-radius: 25px;*/
+/*    -fx-background-radius: 25px;*/
+/*}*/
+
+#disengage:hover {
+    background-color: #0275d8; /* Fallback for compatibility */
+    -fx-background-color: linear-gradient(to bottom, #0275d8, #5bc0de);
+}
+
+.button:pressed {
+    background-color: #014f86; /* Fallback for compatibility */
+    -fx-background-color: linear-gradient(to bottom, #014f86, #0275d8);
+}
